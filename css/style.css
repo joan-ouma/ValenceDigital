@@ -230,3 +230,32 @@ a {
 
 .hero-subtitle {
   font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.hero-title {
+  font-size: 72px;
+  color: #fff;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.hero-title .highlight {
+  color: var(--primary);
+}
+
+.hero-text {
+  font-size: 20px;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 30px;
+}
+
+/* About Section */
+.about-section {
+  padding: 100px 0;
+  background: #ffffff;
+}

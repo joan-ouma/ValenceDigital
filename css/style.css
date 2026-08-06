@@ -114,3 +114,32 @@ a {
 
 .site-header.scrolled .nav-links li a {
   color: var(--text-dark);
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: var(--primary);
+}
+
+.hamburger-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+}
+.site-header.scrolled .hamburger-btn {
+  color: var(--text-dark);
+}
+
+/* Mobile Drawer */
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100vh;
+  background: #fff;
+  z-index: 10000;
+  box-shadow: -5px 0 20px rgba(0,0,0,0.1);
+  transition: right 0.4s ease;

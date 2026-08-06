@@ -27,3 +27,32 @@ a {
 
 .text-muted { color: var(--text-muted) !important; }
 .bg-light { background-color: var(--bg-light) !important; }
+
+/* Buttons */
+.btn-primary-custom {
+  display: inline-block;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border: 2px solid var(--primary);
+  transition: all 0.3s;
+}
+
+.btn-primary-custom:hover {
+  background-color: transparent;
+  color: var(--primary);
+}
+
+/* Typography elements */
+.section-subtitle {
+  display: inline-block;
+  color: var(--primary);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;

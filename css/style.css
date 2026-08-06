@@ -1,0 +1,29 @@
+/* Variables & Setup */
+:root {
+  --primary: #a855f7;
+  --primary-hover: #9333ea;
+  --text-dark: #1f2937;
+  --text-muted: #6b7280;
+  --bg-light: #f9fafb;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-dark);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .brand-text, .section-title, .hero-title {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.text-muted { color: var(--text-muted) !important; }
+.bg-light { background-color: var(--bg-light) !important; }

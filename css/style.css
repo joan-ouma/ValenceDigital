@@ -346,3 +346,32 @@ a {
 
 .service-card .card-title {
   font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* Projects Section */
+.projects-section {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.project-block {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.overlay-icon {

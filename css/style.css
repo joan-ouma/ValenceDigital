@@ -259,3 +259,32 @@ a {
   padding: 100px 0;
   background: #ffffff;
 }
+
+.about-images-container {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+}
+
+.about-img-main {
+  width: 80%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-img-sub {
+  width: 60%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 10px solid #fff;
+}
+
+.about-feature-icon {

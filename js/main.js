@@ -33,6 +33,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Hero Slider (Cross-fade & Zoom)
+    const slides = document.querySelectorAll('.hero-slide');
+    if (slides.length > 1) {
+        let currentSlide = 0;
+        setInterval(() => {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }, 5000); // Change slide every 5 seconds
+    }
+
     // Smooth Scroll for Anchor Links (Optional, CSS scroll-behavior usually handles this)
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {

@@ -18,3 +18,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (mobileMenuBtn && mobileDrawer && drawerCloseBtn) {
         mobileMenuBtn.addEventListener('click', () => {
+            mobileDrawer.classList.add('open');
+        });
+
+        drawerCloseBtn.addEventListener('click', () => {
+            mobileDrawer.classList.remove('open');
+        });
+
+        // Close drawer when clicking a link
+        drawerLinks.forEach(link => {
+            link.addEventListener('click', () => {

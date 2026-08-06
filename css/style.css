@@ -404,3 +404,32 @@ a {
 /* Tech Section */
 .tech-logos i {
   transition: color 0.3s;
+}
+.tech-logos i:hover {
+  color: var(--primary) !important;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 100px 0 150px;
+  background-color: #111;
+  position: relative;
+}
+
+.contact-section .section-title {
+  font-size: 48px;
+}
+
+/* Footer */
+.site-footer {
+  background: #000000;
+  padding: 80px 0 20px;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: rgba(255,255,255,0.5);
+}

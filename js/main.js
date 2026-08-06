@@ -28,3 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
         // Close drawer when clicking a link
         drawerLinks.forEach(link => {
             link.addEventListener('click', () => {
+                mobileDrawer.classList.remove('open');
+            });
+        });
+    }
+
+    // Smooth Scroll for Anchor Links (Optional, CSS scroll-behavior usually handles this)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            const targetId = this.getAttribute('href');
+            if(targetId === '#') return;

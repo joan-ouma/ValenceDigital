@@ -172,3 +172,32 @@ a {
 
 .drawer-nav ul {
   list-style: none;
+  padding: 0;
+}
+
+.drawer-nav ul li {
+  margin-bottom: 20px;
+}
+
+.drawer-nav ul li a {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+.drawer-nav ul li a:hover {
+  color: var(--primary);
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;

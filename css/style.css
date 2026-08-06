@@ -85,3 +85,32 @@ a {
 
 .brand-text {
   font-size: 28px;
+  font-weight: 800;
+  color: #ffffff; /* White when on hero */
+}
+.site-header.scrolled .brand-text {
+  color: var(--text-dark);
+}
+
+.brand-text span {
+  color: var(--primary);
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+}
+
+.site-header.scrolled .nav-links li a {
+  color: var(--text-dark);

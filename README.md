@@ -22,3 +22,13 @@ This project is built using standard web technologies without the need for compl
 - **Bootstrap 5 (CDN)** for grid system and utility classes to ensure rapid and responsive layout development.
 - **FontAwesome (CDN)** for crisp, scalable vector icons.
 - **Google Fonts** (Outfit and Inter) for modern typography.
+
+## Project Structure
+
+```text
+ValenceDigital/
+├── css/
+│   └── style.css       # Custom stylesheets and design tokens
+├── js/
+│   └── main.js         # Interactivity and UI logic (slider, navbar, etc.)
+├── index.html          # Main HTML structure

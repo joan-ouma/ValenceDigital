@@ -41,3 +41,19 @@ ValenceDigital/
 To view the website locally, no special server is required. You can simply open the `index.html` file in your preferred web browser.
 
 1. Clone or download the repository to your local machine.
+2. Navigate to the project directory:
+   ```bash
+   cd ValenceDigital
+   ```
+3. Open `index.html` in a web browser:
+   - Double-click the file, OR
+   - Drag and drop it into a browser window, OR
+   - Run a local server if preferred (e.g., `python3 -m http.server` or using VSCode Live Server extension).
+
+## Design & Aesthetics
+
+The design prioritizes visual excellence and a premium feel, utilizing:
+- High-quality imagery (via Unsplash).
+- A cohesive, professional color palette.
+- Modern typography pairings.
+- Subtle CSS transitions and hover effects to create a dynamic user experience.

@@ -32,3 +32,12 @@ ValenceDigital/
 ├── js/
 │   └── main.js         # Interactivity and UI logic (slider, navbar, etc.)
 ├── index.html          # Main HTML structure
+├── LICENSE             # Project license details
+└── .gitignore          # Git ignore rules
+```
+
+## Setup & Usage
+
+To view the website locally, no special server is required. You can simply open the `index.html` file in your preferred web browser.
+
+1. Clone or download the repository to your local machine.

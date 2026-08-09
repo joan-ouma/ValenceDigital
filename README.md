@@ -13,3 +13,12 @@ ValenceDigital is a professional, single-page portfolio website designed for a m
 - **Contact Form:** An integrated section for potential clients to get in touch.
 - **Mobile Navigation:** A dedicated drawer-style mobile menu for smaller screens.
 
+## Tech Stack
+
+This project is built using standard web technologies without the need for complex build tools:
+- **HTML5** for structure and semantics.
+- **CSS3 (Vanilla)** for custom styling, layout, and animations.
+- **JavaScript (Vanilla)** for interactivity, mobile menu toggling, and slider logic.
+- **Bootstrap 5 (CDN)** for grid system and utility classes to ensure rapid and responsive layout development.
+- **FontAwesome (CDN)** for crisp, scalable vector icons.
+- **Google Fonts** (Outfit and Inter) for modern typography.

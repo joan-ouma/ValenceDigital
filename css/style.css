@@ -539,6 +539,17 @@ a {
   .contact-form {
     padding: 20px !important;
   }
+  .about-images-container {
+    min-height: 300px;
+  }
+  .about-img-main {
+    height: 250px;
+    width: 90%;
+  }
+  .about-img-sub {
+    height: 180px;
+    width: 70%;
+  }
 }
 
 

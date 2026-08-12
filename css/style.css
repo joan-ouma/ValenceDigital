@@ -565,6 +565,36 @@ a {
   .about-features h4 {
     text-align: center;
   }
+  .tech-logos {
+    gap: 1.5rem !important;
+  }
+  .site-footer {
+    padding: 60px 0 20px;
+    text-align: center;
+  }
+  .footer-links {
+    margin-bottom: 30px;
+  }
+  .social-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-title {
+    font-size: 32px;
+  }
+  .about-images-container {
+    min-height: 250px;
+  }
+  .about-img-main {
+    height: 200px;
+    width: 95%;
+  }
+  .about-img-sub {
+    height: 150px;
+    width: 75%;
+  }
 }
 
 

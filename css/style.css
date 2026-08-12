@@ -530,6 +530,15 @@ a {
   .section-title {
     font-size: 28px;
   }
+  .about-section, .services-section, .projects-section, .contact-section {
+    padding: 60px 0;
+  }
+  .contact-section {
+    padding-bottom: 80px;
+  }
+  .contact-form {
+    padding: 20px !important;
+  }
 }
 
 
